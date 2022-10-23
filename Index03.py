@@ -6,4 +6,8 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+ 
+     
+    return s[-1]
+print(main("codes"))
+
