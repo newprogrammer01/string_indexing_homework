@@ -6,12 +6,13 @@ def main(s,n):
     Returns:
         str: answer
     """
-    a=len(s)
-    if a>=n:
-     return s[n]
-    if a<n:
-     return "False"
-print(main("uz",3))
+    if  len(s)>=n:
+        return s[n]
+    else:
+          return False
+print(main("good",5))
+
+
 
 
 
